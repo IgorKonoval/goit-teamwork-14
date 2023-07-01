@@ -15,14 +15,13 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
   background-color: var(--btn);
-  transition: transform 250ms cubic-bezier(0.42, 0, 0.58, 1),
-    background-color 250ms cubic-bezier(0.4, 0.2, 0, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0.2, 0, 1);
 }
 
 .order-bnt:hover,
 .order-bnt:focus {
   background-color: var(--bg-hero);
-  transform: scale(1.04);
+  animation: pulse 1.5s 1;
 }
 
 .order-icon {
@@ -40,5 +39,22 @@
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.72px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.94);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+  }
+
+  50% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  100% {
+    transform: scale(0.97);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
