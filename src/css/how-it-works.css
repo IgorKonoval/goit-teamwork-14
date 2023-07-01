@@ -1,4 +1,6 @@
+<<<<<<< Updated upstream
 .container {
+  max-width: 100%;
   max-width: 375px;
   padding-left: 15px;
   padding-right: 15px;
@@ -140,3 +142,6 @@
     width: 294px;
   }
 }
+=======
+
+>>>>>>> Stashed changes
