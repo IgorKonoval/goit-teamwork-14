@@ -1,5 +1,12 @@
 .header {
+  position: fixed;
   padding: 20px 0;
+  background-color: #fff;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .nav-main list {
@@ -7,12 +14,24 @@
   align-items: center;
   justify-content: flex-end;
   gap: 40px;
+  margin: 0 auto;
 }
 
 .project-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  color: #141414;
+  text-align: center;
+  font-size: 14px;
+  gap: 20px;
+}
+
+
+.first-child { 
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-bottom: 16px;
 }
 
 .project-link:hover,
