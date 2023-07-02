@@ -18,9 +18,10 @@
 <path d="M19.52 4.64h0.96v3.6h-1.2c-0.48 0-0.96 0-1.2 0.24s-0.24 0.48-0.24 1.040v1.28h2.64v3.040h-2.64v13.2h-4.080v-13.28h-2.16v-3.040h2.16v-1.040c0-1.76 0.24-3.040 0.72-3.6 0.72-1.040 2.16-1.52 4.32-1.52 0.24 0.080 0.48 0.080 0.72 0.080z"></path>
 </symbol>
 
-<symbol id="icon-shopping-cart" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M12 29.333c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333v0c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333v0zM26.667 29.333c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333v0c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333v0z"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M1.333 1.333h5.333l3.573 17.853c0.251 1.233 1.327 2.147 2.616 2.147 0.018 0 0.036-0 0.054-0.001l-0.003 0h12.96c0.015 0 0.033 0 0.051 0 1.289 0 2.364-0.914 2.613-2.13l0.003-0.017 2.133-11.187h-22.667"></path>
+<symbol id="icon-shopping-cart-1" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M12 29.333c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 29.333c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333z"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M1.333 1.333h5.333l3.573 17.853c0.122 0.614 0.456 1.165 0.943 1.558s1.098 0.601 1.723 0.589h12.96c0.626 0.012 1.236-0.197 1.723-0.589s0.821-0.944 0.943-1.558l2.133-11.187h-22.667"></path>
 </symbol>
 
 <symbol id="icon-x" viewBox="0 0 32 32">
