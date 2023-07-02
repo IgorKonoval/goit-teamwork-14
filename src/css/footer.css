@@ -62,6 +62,7 @@ img {
   line-height: 1.29;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 .menu {
   display: flex;
@@ -106,24 +107,31 @@ img {
 }
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 373px;
+    max-width: 374px;
     margin-right: auto;
     margin-left: auto;
   }
 }
-@media screen and (min-width: 766px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 767px;
   }
   .footer-container {
     justify-content: space-between;
   }
+  .address-link {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    max-width: 1279px;
   }
   .wrap-footer {
     display: flex;
+    gap: 166px;
   }
 }
