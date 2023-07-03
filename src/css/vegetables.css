@@ -7,7 +7,7 @@
     margin: 0 auto;
     border-radius: 50%;
     border: none;
-    color: #FFF;
+    color: var(--bg-and-text);
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
         font-size: 14px;
         font-weight: 500;
@@ -47,7 +47,7 @@
 
 .order-icon{
 transform: translateY(85%);
- fill: #FFF;
+ fill: var(--bg-and-text);
  margin-right: 4px;
 }
 
@@ -55,7 +55,7 @@ transform: translateY(85%);
     transform: rotate(-14deg);
 }
 
-@media screen and (min-width : 786px) {
+@media screen and (min-width : 768px) {
     .order-bnt{
         width: 114px;
         height: 114px;
