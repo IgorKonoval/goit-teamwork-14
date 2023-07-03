@@ -1,0 +1,98 @@
+/* ----------Mobile---------- */
+.call-you {
+  padding-top: 100px;
+  max-width: 375px;
+  justify-content: center;
+  text-align: center;
+}
+.call-head {
+  max-width: 353px;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.call-item {
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  max-width: 321px;
+  margin-bottom: 40px;
+}
+
+.call-form {
+  width: 100%;
+  justify-content: center;
+  max-width: 335px;
+}
+
+.call-label {
+  width: 100%;
+}
+
+.call-input {
+  border: 1px solid #141414;
+  opacity: 0.30000001192092896;
+  margin: 15px 24px;
+  border-radius: 100px;
+  width: 100%;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.call-input::placeholder {
+  padding: 15px 24px;
+}
+
+.call-btn {
+  border-radius: 100px;
+  color: #fff;
+  background: #fc8a11;
+  display: inline-flex;
+  padding: 15px 35px;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 428px) {
+}
+
+@media screen and (max-width: 767px) {
+  .mob-menu > .container {
+    max-width: 383px;
+  }
+}
+
+/* ----------Tablet---------- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* ----------PC---------- */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
