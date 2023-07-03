@@ -14,6 +14,7 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 .call-head {
   max-width: 320px;
@@ -89,6 +90,25 @@
   letter-spacing: -0.56px;
   text-transform: capitalize;
   border: none;
+}
+
+.call-you-woman {
+  border-radius: 68px;
+  background: #faf3e7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/we-will-call-you/call-you-background-mb.png);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .call-you-woman {
+    background-image: url(../img/we-will-call-you/call-you-background-mb@2x.png);
+  }
+}
+
+.call-you-woman-img {
 }
 
 @media screen and (min-width: 375px) {
