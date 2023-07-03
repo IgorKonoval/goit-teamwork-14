@@ -13,7 +13,7 @@
   max-width: 375px;
   justify-content: center;
   text-align: center;
-  margin: 0auto;
+  margin: 0 auto;
 }
 .call-head {
   max-width: 320px;
@@ -42,7 +42,6 @@
 
 .call-form {
   width: 100%;
-  justify-content: center;
   max-width: 335px;
 }
 
