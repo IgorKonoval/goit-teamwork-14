@@ -42,7 +42,9 @@
 
 .call-form {
   width: 100%;
+  justify-content: center;
   max-width: 335px;
+  position: relative;
 }
 
 .call-label {
@@ -69,14 +71,15 @@
 }
 
 .call-btn {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  margin: 0;
   border-radius: 100px;
   max-width: 105px;
   color: #fff;
   background: #fc8a11;
-  display: inline-flex;
   padding: 15px 35px;
-  align-items: center;
-  justify-content: center;
   color: #fff;
   font-size: 14px;
   font-family: DM Sans;
@@ -100,9 +103,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .mob-menu > .container {
-    max-width: 375px;
-  }
 }
 
 /* ----------Tablet---------- */
