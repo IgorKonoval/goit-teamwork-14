@@ -45,7 +45,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 443px;
   background-color: var(--bg-footer-img);
   border-radius: 20px;
   padding: 40px 20px 20px 20px;
@@ -79,6 +78,18 @@
 }
 
 /* ==================== MEDIA ==================== */
+
+@media screen and (max-height: 374px) {
+  .veg-card {
+    max-height: 443px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .veg-card {
+    height: 443px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .container {
