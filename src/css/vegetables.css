@@ -79,12 +79,6 @@
 
 /* ==================== MEDIA ==================== */
 
-@media screen and (max-height: 374px) {
-  .veg-card {
-    max-height: 443px;
-  }
-}
-
 @media screen and (min-width: 375px) {
   .veg-card {
     height: 443px;
