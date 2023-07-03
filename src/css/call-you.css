@@ -17,6 +17,7 @@
   padding-bottom: 40px;
 }
 .call-head {
+  color: #141414;
   max-width: 320px;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 24px;
@@ -30,6 +31,7 @@
 }
 
 .call-item {
+  color: #141414;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
@@ -92,7 +94,8 @@
   border: none;
 }
 
-.call-you-woman {
+.call-you-woman-mob {
+  max-width: 335px;
   border-radius: 68px;
   background: #faf3e7;
   background-size: cover;
@@ -106,23 +109,12 @@
   .call-you-woman {
     background-image: url(../img/we-will-call-you/call-you-background-mb@2x.png);
   }
-}
 
-.call-you-woman-img {
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
+  @media screen and (max-width: 767px) {
+    .call-you-woman-tab {
+      display: none;
+    }
   }
-}
-
-@media screen and (max-width: 428px) {
-}
-
-@media screen and (max-width: 767px) {
 }
 
 /* ----------Tablet---------- */
@@ -130,6 +122,67 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .call-you {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .call-head {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 524px;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+  }
+
+  .call-item {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    max-width: 499px;
+  }
+
+  .call-form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+  }
+
+  .call-you-woman-mob {
+    display: none;
+  }
+
+  .call-you-woman-tab {
+    max-width: 629px;
+    border-radius: 80px;
+    background: #faf3e7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/we-will-call-you/call-you-background-tb.png);
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .call-you-woman {
+      background-image: url(../img/we-will-call-you/call-you-background-tb@2x.png);
+    }
   }
 }
 
