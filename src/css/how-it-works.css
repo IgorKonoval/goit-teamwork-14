@@ -1,15 +1,13 @@
 .container {
   max-width: 100%;
   max-width: 375px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .order-title {
   color: var(--text);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-style: normal;
   font-weight: 500;
   text-transform: uppercase;
@@ -17,12 +15,16 @@
 
 .order-text {
   color: var(--text);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-style: normal;
-  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .order-section {
     padding-top: 80px;
   }
@@ -37,7 +39,7 @@
     margin-bottom: 20px;
     font-size: 28px;
     line-height: 1.14;
-    letter-spacing: -1.12px;   
+    letter-spacing: -1.12px;
   }
 
   .order-list {
@@ -51,6 +53,8 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 766px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .order-section {
@@ -79,6 +83,10 @@
     margin-top: 40px;
     flex-direction: row;
     gap: 20px;
+  }
+
+  .picture {
+    margin-left: 8px;
   }
 
   .order-text-one {
