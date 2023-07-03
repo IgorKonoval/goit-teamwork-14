@@ -1,8 +1,8 @@
 .container {
-  max-width: 100%;
   max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .order-title {
@@ -20,11 +20,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .order-section {
     padding-top: 80px;
   }
@@ -62,7 +57,7 @@
   }
 
   .order-title-picture {
-    display: flex;
+    display: flex;    
   }
 
   .order-title {
@@ -109,6 +104,8 @@
 
   .order-title-picture {
     display: flex;
+    justify-content: space-between;
+    height: 170px;
   }
 
   .order-title {
@@ -116,6 +113,7 @@
     line-height: 1.04;
     letter-spacing: -1.92px;
     width: 614px;
+  
   }
 
   .order-text {
@@ -133,6 +131,7 @@
 
   .picture {
     margin-left: 119px;
+ 
   }
 
   .order-text-one {
