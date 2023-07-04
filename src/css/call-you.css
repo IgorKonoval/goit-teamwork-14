@@ -19,7 +19,7 @@
 .call-head {
   color: #141414;
   max-width: 320px;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-family: DM Sans;
   font-style: normal;
@@ -32,7 +32,7 @@
 
 .call-item {
   color: #141414;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
   font-style: normal;
@@ -137,13 +137,14 @@
   .call-you {
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 80px;
   }
 
   .call-head {
     margin-left: auto;
     margin-right: auto;
     max-width: 524px;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 40px;
     font-family: DM Sans;
     font-style: normal;
@@ -157,7 +158,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 18px;
     font-family: DM Sans;
     font-style: normal;
@@ -201,24 +202,25 @@
 
 /* ----------PC---------- */
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .container {
-    max-width: 1280px;
-    text-align: center;
-    padding-right: 32px;
     padding-left: 32px;
+    padding-right: 32px;
   }
 
   .call-you {
     max-width: 614px;
-    margin-left: 0;
+    float: left;
+    margin: 98px 77px 98px 0px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .call-head {
-    justify-content: left;
     text-align: left;
     max-width: 614px;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 48px;
     font-family: DM Sans;
     font-style: normal;
@@ -230,9 +232,8 @@
 
   .call-item {
     margin-left: 0;
-    justify-content: left;
     text-align: left;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
     font-size: 18px;
     font-family: DM Sans;
     font-style: normal;
@@ -243,10 +244,9 @@
   }
 
   .call-form {
-    margin-left: 0;
-    justify-content: left;
-    text-align: left;
     max-width: 350px;
+    display: flex;
+    float: left;
   }
 
   .call-you-woman-tab {
@@ -254,9 +254,9 @@
   }
 
   .call-you-woman-dt {
-    justify-content: right;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
     max-width: 525px;
     border-radius: 68px;
     background: #faf3e7;
@@ -272,4 +272,6 @@
       background-image: url(../img/we-will-call-you/call-you-background-dt@2x.png);
     }
   }
+
+  
 }
