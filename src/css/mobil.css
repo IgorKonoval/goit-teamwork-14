@@ -36,7 +36,7 @@
 }
 
 .menu-logo-icon {
-    fill: #77AC63;
+    fill:var(--icon-close-mob);
 }
 
 .menu-title {
@@ -45,10 +45,11 @@ font-size: 14px;
 font-weight: 700;
 line-height: 1.28;
 letter-spacing: -0.56px;
+text-transform: uppercase;
 }
 
 .mob-menu-icon {
-    stroke: #77AC63;
+    stroke: var(--icon-close-mob);
 }
 
 .mob-menu-list {
@@ -61,7 +62,7 @@ letter-spacing: -0.56px;
 }
 
 .mob-menu-item {
-    color: #FFF;
+    color:var(--bg-and-text);
 font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.56px;
