@@ -1,12 +1,11 @@
 .section-buying {
-  width: 100%;
+  max-width: 100%;
 
   padding-top: 40px;
 
   background-image: url(../img/how-it-works/how-it-works-background-mb.png);
   background-color: #faf3e7;
   border-radius: 40px;
-  margin-left: 32px;
   background-size: cover;
 }
 
@@ -27,13 +26,6 @@
   text-transform: uppercase;
 }
 
-/* .list {
-    position: relative;
-    list-style: none;
-    display: flex;
-} */
-
-
 .number-one {
     display: flex;
     position: relative;
@@ -51,7 +43,6 @@
 
 .text {
   list-style: none;
-  /* position: relative; */
   padding-left: 50px;
   margin-bottom: 10px;
   color: var(--text);
