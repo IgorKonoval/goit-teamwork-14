@@ -16,7 +16,7 @@
   padding-bottom: 40px;
 }
 .call-head {
-  color: var(#141414);
+  color: var(--text);
   max-width: 320px;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
@@ -30,7 +30,7 @@
 }
 
 .call-item {
-  color: var(#141414);
+  color: var(--text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
@@ -54,7 +54,7 @@
 }
 
 .call-input {
-  border: 1px solid #c1bdbd;
+  border: 1px solid var(--input);
   border-radius: 100px;
   width: 100%;
   height: 48px;
@@ -63,7 +63,7 @@
 
 .call-input::placeholder {
   padding: 15px 24px;
-  color: #c1bdbd;
+  color: var(--input);
   font-size: 14px;
   font-family: DM Sans;
   font-style: normal;
@@ -79,10 +79,9 @@
   margin: 0;
   border-radius: 100px;
   max-width: 105px;
-  color: #fff;
-  background: #fc8a11;
+  color: var(--bg-and-text);
+  background: var(--btn);
   padding: 15px 35px;
-  color: #fff;
   font-size: 14px;
   font-family: DM Sans;
   font-style: normal;
@@ -96,7 +95,7 @@
 .call-you-woman-mob {
   max-width: 335px;
   border-radius: 68px;
-  background: #faf3e7;
+  background: var(--bg-girl-modal-img);
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/we-will-call-you/call-you-background-mb.png);
@@ -173,7 +172,7 @@
     display: block;
     max-width: 629px;
     border-radius: 80px;
-    background: #faf3e7;
+    background: var(--bg-girl-modal-img);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/we-will-call-you/call-you-background-tb.png);
@@ -255,7 +254,7 @@
     display: flex;
     max-width: 525px;
     border-radius: 68px;
-    background: #faf3e7;
+    background: var(--bg-girl-modal-img);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/we-will-call-you/call-you-background-dt.png);
