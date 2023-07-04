@@ -1,6 +1,6 @@
 .section-buying {
-  width: 375px;
-  max-width: 100%;
+  /* width: 375px; */
+  width: 100%;
 
   padding-top: 40px;
 
@@ -8,11 +8,12 @@
   background-color: #faf3e7;
   border-radius: 40px;
   margin-left: 32px;
+  background-size: cover;
 }
 
 .container {
   max-width: 100%;
-  max-width: 375px;
+  /* max-width: 375px; */
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -87,11 +88,14 @@
 @media screen and (max-width: 767px) {
 
     .section-buying {
-    width: 335px;
+    /* width: 335px; */
     flex-shrink: 0;
     background-color: #faf3e7;
     border-radius: 40px;
     display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
   }
 
   .title {
@@ -127,11 +131,12 @@
   }
 
   .section-buying {
-    width: 704px;
+    width: 100%;
     background-image: url(../img/how-it-works/how-it-works-background-tb.png);
     background-color: #faf3e7;
     border-radius: 80px;
     margin-left: 32px;
+    background-size: cover;
   }
 
   .title-girl-picture {
@@ -147,6 +152,7 @@
   }
 
   .title {
+    width: 274px;
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -1.12px;
