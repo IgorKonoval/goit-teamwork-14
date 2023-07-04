@@ -1,0 +1,146 @@
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-title {
+  color: var(--text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.order-text {
+  color: var(--text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .order-section {
+    padding-top: 80px;
+  }
+
+  .order-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+  }
+
+  .order-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .order-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .order-section {
+    padding-top: 100px;
+  }
+
+  .order-title-picture {
+    display: flex;
+    gap: 8px;
+  }
+
+  .order-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    width: 386px;
+  }
+
+  .order-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .order-list {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .picture {
+    margin-left: 8px;
+  }
+
+  .order-text-one {
+    width: 317px;
+  }
+
+  .order-text-two {
+    width: 279px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .order-section {
+    padding-top: 124px;
+  }
+
+  .order-title-picture {
+    position: relative;
+    display: flex;
+  }
+
+  .order-title {
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    width: 614px;
+  }
+
+  .order-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .order-list {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .order-text-one {
+    width: 353px;
+  }
+
+  .order-text-two {
+    width: 294px;
+  }
+}
