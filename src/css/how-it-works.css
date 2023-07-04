@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -59,6 +59,7 @@
   }
 
   .order-title-picture {
+    position: relative;
     display: flex;
     gap: 8px;
   }
@@ -84,7 +85,9 @@
   }
 
   .picture {
-    margin-left: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .order-text-one {
@@ -96,9 +99,9 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1158px;
+    max-width: 1280px;
   }
 
   .order-section {
@@ -106,8 +109,8 @@
   }
 
   .order-title-picture {
-    position: relative;
     display: flex;
+    height: 170px;
   }
 
   .order-title {
@@ -128,12 +131,6 @@
     margin-top: 40px;
     flex-direction: row;
     gap: 40px;
-  }
-
-  .picture {
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   .order-text-one {
