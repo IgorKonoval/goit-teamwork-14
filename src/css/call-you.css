@@ -116,7 +116,6 @@
   .call-you-woman-mob {
     background-image: url(../img/we-will-call-you/call-you-background-mb@2x.png);
   }
-
 }
 @media screen and (max-width: 428px) {
   .container {
@@ -173,14 +172,6 @@
     max-width: 350px;
   }
 
-  .call-you-woman-mob {
-    display: none;
-  }
-
-  .call-you-woman-dt {
-    display: none;
-  }
-
   .call-you-woman-tab {
     max-width: 629px;
     border-radius: 80px;
@@ -188,6 +179,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/we-will-call-you/call-you-background-tb.png);
+  }
+
+  .call-you-woman-mob {
+    display: none;
+  }
+
+  .call-you-woman-dt {
+    display: none;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -249,6 +248,10 @@
   }
 
   .call-you-woman-tab {
+    display: none;
+  }
+
+  .call-you-woman-mob{
     display: none;
   }
 
