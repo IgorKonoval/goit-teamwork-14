@@ -44,6 +44,7 @@
   }
 
   .order-title-picture {
+    position: relative;
     display: flex;
     gap: 8px;
   }
@@ -69,7 +70,9 @@
   }
 
   .picture {
-    margin-left: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .order-text-one {
@@ -81,14 +84,14 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .order-section {
     padding-top: 124px;
   }
 
   .order-title-picture {
-    position: relative;
     display: flex;
+    height: 170px;
   }
 
   .order-title {
@@ -109,12 +112,6 @@
     margin-top: 40px;
     flex-direction: row;
     gap: 40px;
-  }
-
-  .picture {
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   .order-text-one {
