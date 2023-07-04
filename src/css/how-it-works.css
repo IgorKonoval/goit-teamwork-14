@@ -1,12 +1,3 @@
-.container {
-  width: 100%;
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .order-title {
   color: var(--text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
@@ -48,12 +39,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .order-section {
     padding-top: 100px;
   }
@@ -100,10 +85,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
   .order-section {
     padding-top: 124px;
   }
