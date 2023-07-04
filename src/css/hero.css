@@ -37,7 +37,7 @@ button {
 
 .hero {
   padding-top: 48px;
-  background: #a1c487;
+  background: var(--bg-hero);
 }
 
 .hero-items {
@@ -60,12 +60,12 @@ button {
   width: 44px;
   height: 44px;
   transform: translateX(-48px);
-  background-color: #fff;
+  background-color: var(--bg-and-text);
   border-radius: 50%;
 }
 
 .hero-avatar3 p {
-  color: #141414;
+  color: var(--text);
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
@@ -93,13 +93,13 @@ button {
   line-height: 32px;
   letter-spacing: -1.6px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--bg-and-text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-bottom: 14px;
 }
 
 .hero-title span {
-  color: #eaf7e5;
+  color: var(--bg-footer-img);
   font-style: italic;
 }
 
@@ -121,7 +121,7 @@ button {
 }
 
 .hero-text {
-  color: #fff;
+  color: var(--bg-and-text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
@@ -146,7 +146,7 @@ button {
   border-radius: 50%;
   transform: rotateZ(-14deg);
 
-  color: #fc8a11;
+  color: var(--btn);
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
@@ -156,7 +156,7 @@ button {
   line-height: 16px;
   letter-spacing: -0.56px;
   text-transform: uppercase;
-  background: #faf3e7;
+  background-color: var(--bg-girl-modal-img);
 }
 
 @media only screen and (min-width: 767px) {
@@ -230,7 +230,7 @@ button {
 .hero-btn-active {
   font-family: DM Sans;
   padding: 8px 14px;
-  color: #141414;
+  color: var(--text);
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 10px;
@@ -240,7 +240,7 @@ button {
   letter-spacing: -0.4px;
   text-transform: uppercase;
   border-radius: 100px;
-  background: #f9f7f4;
+  background: var(--bth-hero-active);
   border: none;
 }
 
@@ -249,7 +249,7 @@ button {
 @media only screen and (min-width: 767px ) {
   .hero-btn-active {
     padding: 10px 20px;
-    color: #141414;
+    color: var(--text);
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
@@ -260,7 +260,7 @@ button {
 @media only screen and (min-width: 1280px) {
   .hero-btn-active {
     padding: 12px 32px;
-    color: #141414;
+    color: var(--text);
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
@@ -270,6 +270,6 @@ button {
 
 .hero-btn-fruit {
   background: inherit;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--bg-and-text);
+  color: var(--bg-and-text);
 }
