@@ -80,6 +80,10 @@
   .project-link:focus {
     color: var(--bg-hero);
   }
+  .top-line-logo {
+    position: absolute;
+    left: 50%;
+  }
   .mob-menu-btn {
     display: none;
   }
