@@ -16,7 +16,7 @@
   padding-bottom: 40px;
 }
 .call-head {
-  color: #141414;
+  color: var(#141414);
   max-width: 320px;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 24px;
@@ -30,7 +30,7 @@
 }
 
 .call-item {
-  color: #141414;
+  color: var(#141414);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-family: DM Sans;
