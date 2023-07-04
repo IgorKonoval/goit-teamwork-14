@@ -13,7 +13,6 @@
   max-width: 375px;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
   padding-bottom: 40px;
 }
 .call-head {
@@ -133,8 +132,6 @@
   }
 
   .call-you {
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 80px;
   }
 
@@ -202,6 +199,11 @@
 /* ----------PC---------- */
 
 @media screen and (min-width: 1280px) {
+  .call-you-container {
+    justify-content: center;
+    display: flex;
+  }
+
   .container {
     padding-left: 32px;
     padding-right: 32px;
@@ -244,16 +246,7 @@
 
   .call-form {
     max-width: 350px;
-    display: flex;
     float: left;
-  }
-
-  .call-you-woman-tab {
-    display: none;
-  }
-
-  .call-you-woman-mob {
-    display: none;
   }
 
   .call-you-woman-dt {
@@ -266,6 +259,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/we-will-call-you/call-you-background-dt.png);
+  }
+
+  .call-you-woman-tab {
+    display: none;
+  }
+
+  .call-you-woman-mob {
+    display: none;
   }
 
   @media (min-device-pixel-ratio: 2),
