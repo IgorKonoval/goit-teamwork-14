@@ -46,6 +46,8 @@ font-weight: 700;
 line-height: 1.28;
 letter-spacing: -0.56px;
 text-transform: uppercase;
+padding-top: 16px;
+padding-bottom: 16px;
 }
 
 .mob-menu-icon {
