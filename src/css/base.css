@@ -6,6 +6,8 @@
   --btn: #fc8a11;
   --bg-girl-modal-img: #faf3e7;
   --input: #c1bdbd;
+  --icon-close-mob: #77ac63;
+
 }
 
 body {
@@ -13,4 +15,24 @@ body {
   font-size: 18px;
   line-height: 24px;
   background-color: var(--bg-and-text);
+}
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
