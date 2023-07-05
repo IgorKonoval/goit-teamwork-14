@@ -38,7 +38,7 @@
 
 .step-block li {
   position: relative;
-  padding: 0px 10px 0px 60px;
+  padding: 0px 0px 10px 60px;
 }
 
 .step-block .first-one::before {
@@ -94,7 +94,7 @@
   .list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     gap: 21px;
   }
 
@@ -105,20 +105,19 @@
   }
 
   .first {
-    width: 176px;
+    width: 100%;
   }
 
   .second {
-    width: 166px;
+    width: 100%;
   }
 
   .third {
-    width: 199px;
+    width: 100%;
   }
 
   .img {
     width: 258px;
-    height: 319px;
   }
 }
 
@@ -159,6 +158,7 @@
     line-height: 1.14;
     letter-spacing: -1.12px;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .text {
@@ -171,15 +171,15 @@
   }
 
   .first {
-    width: 176px;
+    width: 100%;
   }
 
   .second {
-    width: 166px;
+    width: 100%;
   }
 
   .third {
-    width: 199px;
+    width: 100%;
     top: 30px;
   }
 }
@@ -243,14 +243,14 @@
   }
 
   .first {
-    width: 289px;
+    width: 100%;
   }
 
   .second {
-    width: 166px;
+    width: 100%;
   }
 
   .third {
-    width: 289px;
+    width: 100%;
   }
 }
