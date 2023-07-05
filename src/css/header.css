@@ -2,6 +2,7 @@
   position: fixed;
   background-color: var(--bg-and-text);
   width: 100%;
+  z-index: 100;
 }
 .header-container {
   display: flex;
@@ -47,7 +48,6 @@
 }
 
 @media screen and (min-width: 768px) {
- 
   .header-container {
     display: flex;
     align-items: center;
@@ -93,4 +93,3 @@
     fill: var(--bg-hero);
   }
 }
-

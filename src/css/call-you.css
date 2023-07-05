@@ -1,16 +1,10 @@
 /* ----------Mobile---------- */
 
-.container {
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.call-you-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-
 .call-you {
-  padding-top: 100px;
-  max-width: 375px;
   justify-content: center;
   text-align: center;
   padding-bottom: 40px;
@@ -124,14 +118,9 @@
 /* ----------Tablet---------- */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
-  }
-
-  .call-you {
-    padding-bottom: 80px;
+  .call-you-container {
+    padding-top: 100px;
+    padding-bottom: 173px;
   }
 
   .call-head {
@@ -199,13 +188,10 @@
 
 @media screen and (min-width: 1280px) {
   .call-you-container {
+    padding-top: 124px;
+    padding-bottom: 124px;
     justify-content: center;
     display: flex;
-  }
-
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .call-you {

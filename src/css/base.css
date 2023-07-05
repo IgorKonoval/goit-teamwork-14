@@ -7,13 +7,12 @@
   --bg-girl-modal-img: #faf3e7;
   --input: #c1bdbd;
   --icon-close-mob: #77ac63;
-
 }
 
 body {
   font-family: DM Sans, sans-serif;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   background-color: var(--bg-and-text);
 }
 .container {
