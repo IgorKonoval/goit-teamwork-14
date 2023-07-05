@@ -168,6 +168,7 @@
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.56px;
+  outline: none;
   text-transform: uppercase;
   background-color: var(--btn);
   transition: background-color 250ms cubic-bezier(0.4, 0.2, 0, 1);
