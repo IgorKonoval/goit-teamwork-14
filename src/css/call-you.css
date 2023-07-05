@@ -60,10 +60,12 @@
   height: 48px;
   flex-shrink: 0;
   padding: 15px 24px;
-} 
+}
 
-.call-input:is(:hover, :focus){
+.call-input:is(:hover, :focus) {
   border-color: var(--bg-hero);
+  outline: none !important;
+
 }
 
 .call-input::placeholder {
@@ -74,7 +76,6 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.56px;
-
 }
 
 .call-btn {
