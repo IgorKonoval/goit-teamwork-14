@@ -7,7 +7,6 @@
   background-color: var(--bg-girl-modal-img);
   border-radius: 40px;
   background-size: cover;
-  margin: 0 20px;
 }
 
 .container {
@@ -25,22 +24,6 @@
   text-transform: uppercase;
 }
 
-.number-one {
-    display: flex;
-    position: relative;
-}
-
-.number-two {
-    display: flex;
-    position: relative;
-}
-
-.number-three {
-    display: flex;
-    position: relative;
-    padding-top: 20px;
-}
-
 .text {
   list-style: none;
   padding-left: 50px;
@@ -53,55 +36,42 @@
   flex-direction: column;
 }
 
-.text-first::before {
-  content: '1';
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--bg-hero);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  line-height: 20px;
-  position: absolute;  
-  margin-top: 0px;
-  padding-top: 10px;
-  left: 0;
-  top: 7px;
+.step-block li {
+  position: relative;
+  padding: 0px 10px 0px 60px;
 }
 
-.text-second::before {
-  content: '2';
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--bg-hero);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  line-height: 20px;
+.step-block .first-one::before {
+  content: '';
   position: absolute;
-  margin-top: 0px;
-  padding-top: 10px;
-  top: 0;
   left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: url(../img/how-it-works/one.png) no-repeat center / contain;
+  flex-wrap: nowrap;
 }
 
-.text-third::before {
-  content: '3';
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: var(--bg-hero);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  line-height: 20px;
-  position: absolute;  
-  margin-top: 0px;
-  padding-top: 10px;
-  top: 20px;
+.step-block .second-two::before {
+  content: '';
+  position: absolute;
   left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: url(../img/how-it-works/two.png) no-repeat center / contain;
+  flex-wrap: nowrap;
+}
+
+.step-block .third-three::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: url(../img/how-it-works/three.png) no-repeat center / contain;
+  flex-wrap: nowrap;
 }
 
 @media screen and (max-width: 767px) {
@@ -112,6 +82,7 @@
     border-radius: 40px;
     display: block;
     flex-wrap: wrap;
+    margin: 0 20px;
   }
 
   .title {
@@ -147,17 +118,16 @@
     flex-direction: row-reverse;
     justify-content: center;
     gap: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .section-buying {
-    width: 100%;
+    max-width: 100%;
     background-image: url(../img/how-it-works/how-it-works-background-tb.png);
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     padding: 0 32px;
     background-size: cover;
+    margin: 0 32px;
   }
 
   .title-girl-picture {
@@ -185,6 +155,7 @@
     letter-spacing: -0.56px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .first {
@@ -200,7 +171,7 @@
   }
 }
 
-@media screen and (min-width: 1216px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 100%;
     width: 1280px;
@@ -212,13 +183,14 @@
   } 
 
   .section-buying {
-    width: 1200px;
+    max-width: 100%;
     height: 460px;
     background-image: url(../img/how-it-works/how-it-works-background-dt.png);
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     padding: 0 32px;
     padding-top: 40px;
+    margin: 0 32px;
   }
 
   .title {
@@ -241,6 +213,7 @@
     line-height: 1.29;
     letter-spacing: -0.56px;
     flex-direction: column;
+    width: 100%;
   }
 
   .list {
@@ -256,15 +229,15 @@
     margin-right: 110px;
   }
 
-  .text-first {
+  .first {
     width: 289px;
   }
 
-  .text-second {
+  .second {
     width: 166px;
   }
 
-  .text-third {
+  .third {
     width: 289px;
   }
 }
