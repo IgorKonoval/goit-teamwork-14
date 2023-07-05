@@ -64,7 +64,7 @@
 
 .call-input:is(:hover, :focus) {
   border-color: var(--bg-hero);
-  outline: none !important;
+  outline: none;
 
 }
 
