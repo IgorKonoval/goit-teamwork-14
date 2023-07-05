@@ -148,6 +148,9 @@
 }
 
 .hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 68px;
   height: 68px;
   border: none;

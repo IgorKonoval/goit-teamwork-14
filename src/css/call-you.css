@@ -53,10 +53,15 @@
   width: 100%;
   height: 48px;
   flex-shrink: 0;
+  padding: 15px 24px;
+}
+
+.call-input:is(:hover, :focus) {
+  border-color: var(--bg-hero);
+  outline: none;
 }
 
 .call-input::placeholder {
-  padding: 15px 24px;
   color: var(--input);
   font-size: 14px;
   font-family: DM Sans;
