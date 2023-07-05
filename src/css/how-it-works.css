@@ -12,6 +12,7 @@
 
 .container {
   max-width: 335px;
+  width: 100%;
   padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
@@ -167,12 +168,12 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1157px;
+    max-width: 1199px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     gap: 40px;
-    padding: 0;
+    padding: 0 32px;
   }
 
   .section-buying {
@@ -180,7 +181,7 @@
     background-image: url(../img/how-it-works/how-it-works-background-tb.png);
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
-    margin: 0 32px;
+    padding: 0 32px;
     background-size: cover;
   }
 
@@ -224,9 +225,9 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1216px;
+    max-width: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -234,12 +235,12 @@
   }
 
   .section-buying {
-    width: 1216px;
+    width: 1200px;
     height: 460px;
     background-image: url(../img/how-it-works/how-it-works-background-dt.png);
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
-    margin: 0 32px;
+    padding: 0 32px;
   }
 
   .title {
