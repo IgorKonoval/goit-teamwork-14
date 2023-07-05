@@ -1,27 +1,27 @@
-
 .container-hero {
-      width: 320px;
-      margin: 0 auto;
-
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-@media only screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .container-hero {
-    width: 375px;
+    max-width: 375px;
   }
 }
 
-@media only screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .container-hero {
-    width: 768px;
-    padding: 20px;
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container-hero {
-    width: 1216px;
-    padding: 0 32px;
+    max-width: 1280px;
   }
 }
 
@@ -37,7 +37,7 @@
   background: var(--bg-hero);
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .hero {
     padding-top: 116px;
   }
@@ -119,7 +119,7 @@
   }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .hero-title {
     font-size: 54px;
     max-width: 656px;
@@ -140,7 +140,7 @@
   margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .hero-text {
     max-width: 490px;
     margin-bottom: 32px;
@@ -170,7 +170,7 @@
   background-color: var(--bg-girl-modal-img);
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .hero-btn {
     width: 114px;
     height: 114px;
@@ -193,7 +193,7 @@
   padding: 0;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .hero-img-girl {
     width: 466px;
     height: 380px;
@@ -217,7 +217,7 @@
   margin-left: auto;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
   .hero-list {
     width: 218px;
     column-gap: 4px;
@@ -236,8 +236,6 @@
   }
 }
 
-
-
 .hero-btn-active {
   font-family: DM Sans;
   padding: 8px 14px;
@@ -255,9 +253,7 @@
   border: none;
 }
 
-
-
-@media only screen and (min-width: 767px ) {
+@media only screen and (min-width: 768px) {
   .hero-btn-active {
     padding: 10px 20px;
     color: var(--text);
