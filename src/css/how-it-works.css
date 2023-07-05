@@ -117,7 +117,7 @@
 
 =======
 .text-first {
-    display: flex;
+    display: 176px;
 }
 
 .text-second {
@@ -125,7 +125,7 @@
 }
 
 .text-third {
-    display: flex;  
+    display: 199px;  
 }
 
 >>>>>>> Stashed changes
