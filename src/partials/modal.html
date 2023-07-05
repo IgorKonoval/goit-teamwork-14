@@ -1,9 +1,10 @@
+<div class="backdrop is-hidden">
 <div class="modal">
   <div class="modal-tytle-div">
     <h2 class="tytle-modal">Your Order</h2>
     <button type="button" class="modal-close-btn" data-modal-close>
       <svg class="modal-close-btn-icon" width="24" height="24">
-        <use href="../images/icons.svg#icon-x"></use>
+        <use href="./img/icons.svg#icon-x"></use>
       </svg>
     </button>
   </div>
@@ -11,14 +12,21 @@
     <li class="modal-item">
       <div class="form-thumb">
         <form class="modal-choice">
+          <label for="cabbage-basket" class="modal-label">
+            Cabbage Basket <span class="modal-label-icon">
+              <svg class="modal-icon" width="16" height="16">
+                <use href="./img/icons.svg#icon-box"></use></svg>
+                <svg class="modal-icon-done" width="16" height="16">
+                <use href="./img/icons.svg#icon-done checked"></use>
+              </svg>
+            </span></label>
           <input
-            id="cabbage-basket"
-            type="checkbox"
-            value="true"
-            name="cabbage-basket"
-            class="modal-check visually-hidden"
-          />
-          <label for="cabbage-basket" class="modal-label">Cabbage Basket</label>
+          id="cabbage-basket"
+          type="checkbox"
+          value="true"
+          name="cabbage-basket"
+          class="modal-check visually-hidden"
+        />
         </form>
         <p class="modal-text">Plant</p>
         <img
@@ -37,14 +45,14 @@
     <li class="modal-item">
       <div class="form-thumb">
         <form class="modal-choice">
-          <input
-            id="tomato-basket"
-            type="checkbox"
-            value="true"
-            name="tomato-basket"
-            class="modal-check visually-hidden"
-          />
           <label for="tomato-basket" class="modal-label">Tomato Basket</label>
+          <input
+          id="tomato-basket"
+          type="checkbox"
+          value="true"
+          name="tomato-basket"
+          class="modal-check visually-hidden"
+        />
         </form>
         <p class="modal-text">Plant</p>
         <img
@@ -63,16 +71,16 @@
     <li class="modal-item">
       <div class="form-thumb">
         <form class="modal-choice">
-          <input
-            id="vegetables-basket"
-            type="checkbox"
-            value="true"
-            name="vegetables-basket"
-            class="modal-check visually-hidden"
-          />
           <label for="vegetables-basket" class="modal-label"
             >Vegetables Basket</label
           >
+          <input
+          id="vegetables-basket"
+          type="checkbox"
+          value="true"
+          name="vegetables-basket"
+          class="modal-check visually-hidden"
+        />
         </form>
         <p class="modal-text">Plant</p>
         <img
@@ -126,4 +134,5 @@
     ></textarea>
   </form>
   <button type="submit" class="submit-btn">Submit</button>
+</div>
 </div>
