@@ -106,31 +106,6 @@
   left: 0;
 }
 
-<<<<<<< Updated upstream
-.picture {
-  justify-content: center;
-}
-
-.list  {
-  padding-left: 0;
-  justify-content: center;
-  flex-direction: column;
-}
-
-=======
-.text-first {
-    display: 176px;
-}
-
-.text-second {
-    width: 166px;    
-}
-
-.text-third {
-    display: 199px;  
-}
-
->>>>>>> Stashed changes
 @media screen and (max-width: 767px) {
 
     .section-buying {
@@ -168,12 +143,13 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1199px;
+    max-width: 768px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     gap: 40px;
-    padding: 0 32px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .section-buying {
@@ -225,14 +201,18 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 100%;
+    width: 1280;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    padding: 0;
+    padding-left: 32px;
+    padding-right: 32px;
   }
+
+  
 
   .section-buying {
     width: 1200px;
