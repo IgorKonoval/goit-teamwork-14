@@ -11,11 +11,9 @@
 }
 
 .container {
-  max-width: 335px;
-  width: 100%;
+  max-width: 100%;
+  width: 335px;
   padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .title {
@@ -143,7 +141,8 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 100%;
+    width: 768px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -201,18 +200,16 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1216px) {
   .container {
     max-width: 100%;
-    width: 1280;
+    width: 1280px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     padding-left: 32px;
     padding-right: 32px;
-  }
-
-  
+  } 
 
   .section-buying {
     width: 1200px;
@@ -221,6 +218,7 @@
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     padding: 0 32px;
+    padding-top: 40px;
   }
 
   .title {
