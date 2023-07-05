@@ -1,25 +1,25 @@
 
-.container {
+.container-hero {
       width: 320px;
       margin: 0 auto;
 
 }
 
 @media only screen and (min-width: 375px) {
-  .container {
+  .container-hero {
     width: 375px;
   }
 }
 
 @media only screen and (min-width: 767px) {
-  .container {
+  .container-hero {
     width: 768px;
     padding: 20px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
+  .container-hero {
     width: 1216px;
     padding: 0 32px;
   }
@@ -33,8 +33,20 @@
 }
 
 .hero {
-  padding-top: 48px;
+  padding-top: 98px;
   background: var(--bg-hero);
+}
+
+@media only screen and (min-width: 767px) {
+  .hero {
+    padding-top: 116px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 184px;
+  }
 }
 
 .hero-items {
