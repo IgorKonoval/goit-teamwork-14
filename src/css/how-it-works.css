@@ -1,21 +1,148 @@
-  .section-buying {
-  max-width: 100%;
+.order-title {
+  color: var(--text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 
+.order-text {
+  color: var(--text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .order-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .order-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+  }
+
+  .order-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+  }
+
+  .order-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .order-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .order-title-picture {
+    position: relative;
+    display: flex;
+    gap: 8px;
+  }
+
+  .order-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    width: 386px;
+  }
+
+  .order-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .order-list {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .order-text-one {
+    width: 317px;
+  }
+
+  .order-text-two {
+    width: 279px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-section {
+    padding-top: 124px;
+  }
+
+  .order-title-picture {
+    display: flex;
+    height: 170px;
+  }
+
+  .order-title {
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    width: 614px;
+  }
+
+  .order-text {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .order-list {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .order-text-one {
+    width: 353px;
+  }
+
+  .order-text-two {
+    width: 294px;
+  }
+}
+
+/* block */
+.section-buying {
+  max-width: 335px;
   padding-top: 40px;
-
   background-image: url(../img/how-it-works/how-it-works-background-mb.png);
   background-color: var(--bg-girl-modal-img);
   border-radius: 40px;
   background-size: cover;
+  margin: 0 auto;
 }
 
-.container {
+.container-hiw {
   max-width: 100%;
   width: 335px;
   padding: 0 20px;
 }
 
-.title {
+.title-hiw {
   color: var(--text);
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-style: normal;
@@ -24,7 +151,7 @@
   text-transform: uppercase;
 }
 
-.text {
+.text-hiw {
   list-style: none;
   padding-left: 50px;
   margin-bottom: 10px;
@@ -83,36 +210,35 @@
     border-radius: 40px;
     display: block;
     flex-wrap: wrap;
-    margin: 0 20px;
   }
 
-  .title {
+  .title-hiw {
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: -0.96px;
   }
 
-  .list {
+  .list-hiw {
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
     gap: 21px;
   }
 
-  .text {
+  .text-hiw {
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.56px;
   }
 
-  .img {
+  .img-hiw {
     width: 258px;
     height: 319px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container-hiw {
     max-width: 100%;
     width: 768px;
     display: flex;
@@ -122,13 +248,13 @@
   }
 
   .section-buying {
-    max-width: 100%;
+    max-width: 704px;
     background-image: url(../img/how-it-works/how-it-works-background-tb.png);
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     padding: 0 32px;
+    padding-top: 40px;
     background-size: cover;
-    margin: 0 32px;
   }
 
   .title-girl-picture {
@@ -145,13 +271,13 @@
     margin-top: 40px;
   }
 
-  .list {
+  .list-hiw {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .title {
+  .title-hiw {
     width: 274px;
     font-size: 28px;
     line-height: 1.14;
@@ -159,7 +285,7 @@
     justify-content: center;
   }
 
-  .text {
+  .text-hiw {
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.56px;
@@ -182,7 +308,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .container-hiw {
     max-width: 100%;
     width: 1280px;
     display: flex;
@@ -192,17 +318,15 @@
   }
 
   .section-buying {
-    max-width: 100%;
-    height: 460px;
+    max-width: 1216px;
     background-image: url(../img/how-it-works/how-it-works-background-dt.png);
     background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     padding: 0 32px;
     padding-top: 40px;
-    margin: 0 32px;
   }
 
-  .title {
+  .title-hiw {
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -1.6px;
@@ -217,7 +341,7 @@
     justify-content: center;
   }
 
-  .text {
+  .text-hiw {
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.56px;
@@ -225,13 +349,13 @@
     width: 100%;
   }
 
-  .list {
+  .list-hiw {
     flex-direction: column;
 
     gap: 24px;
   }
 
-  .picture {
+  .picture-hiw {
     width: 434px;
     height: 420px;
     display: flex;
@@ -251,4 +375,3 @@
     width: 349px;
   }
 }
-
