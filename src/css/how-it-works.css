@@ -104,6 +104,7 @@
   left: 0;
 }
 
+<<<<<<< Updated upstream
 .picture {
   justify-content: center;
 }
@@ -114,6 +115,20 @@
   flex-direction: column;
 }
 
+=======
+.text-first {
+    display: flex;
+}
+
+.text-second {
+    width: 166px;    
+}
+
+.text-third {
+    display: flex;  
+}
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 767px) {
 
     .section-buying {
