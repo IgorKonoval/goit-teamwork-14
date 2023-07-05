@@ -4,22 +4,21 @@
   padding-top: 40px;
 
   background-image: url(../img/how-it-works/how-it-works-background-mb.png);
-  background-color: #faf3e7;
+  background-color: var(--bg-girl-modal-img);
   border-radius: 40px;
   background-size: cover;
 }
 
 .container {
-  max-width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 335px;
+  padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .title {
   color: var(--text);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-style: normal;
   font-weight: 500;
   line-height: 1.17;
@@ -39,6 +38,7 @@
 .number-three {
     display: flex;
     position: relative;
+    padding-top: 20px;
 }
 
 .text {
@@ -46,7 +46,7 @@
   padding-left: 50px;
   margin-bottom: 10px;
   color: var(--text);
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-style: normal;
   font-weight: 400;
   justify-content: center;
@@ -58,7 +58,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #a1c487;
+  background-color: var(--bg-hero);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -67,7 +67,7 @@
   margin-top: 0px;
   padding-top: 10px;
   left: 0;
-  top: 0;
+  top: 7px;
 }
 
 .text-second::before {
@@ -75,7 +75,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #a1c487;
+  background-color: var(--bg-hero);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -92,7 +92,7 @@
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  background-color: #a1c487;
+  background-color: var(--bg-hero);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -100,38 +100,25 @@
   position: absolute;  
   margin-top: 0px;
   padding-top: 10px;
-  top: 0px;
+  top: 20px;
   left: 0;
 }
 
-/* .text-point {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-} */
-
-.text-first {
-    display: flex;
+.picture {
+  justify-content: center;
 }
 
-.text-second {
-    width: 166px;
-    
+.list  {
+  padding-left: 0;
+  justify-content: center;
+  flex-direction: column;
 }
-
-.text-third {
-    display: flex;  
-}
-
-
-
-
 
 @media screen and (max-width: 767px) {
 
     .section-buying {
     flex-shrink: 0;
-    background-color: #faf3e7;
+    background-color: var(--bg-girl-modal-img);
     border-radius: 40px;
     display: block;
     flex-wrap: wrap;
@@ -164,15 +151,18 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 1157px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
   }
 
   .section-buying {
     width: 100%;
     background-image: url(../img/how-it-works/how-it-works-background-tb.png);
-    background-color: #faf3e7;
+    background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     margin-left: 32px;
     background-size: cover;
@@ -187,7 +177,6 @@
     flex-direction: column;
     gap: 40;
     justify-content: center;
-    margin-left: 40px;
   }
 
   .title {
@@ -196,7 +185,6 @@
     line-height: 1.14;
     letter-spacing: -1.12px;
     justify-content: center;
-    margin-left: 40px;
   }
 
   .text {
@@ -206,11 +194,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-
-  /* .img {
-    width: 350px;
-    height: 446px;
-  }   */
 
   .first {
     width: 176px;
@@ -230,16 +213,17 @@
     max-width: 1216px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    padding: 0;
   }
 
   .section-buying {
     width: 1216px;
     height: 460px;
     background-image: url(../img/how-it-works/how-it-works-background-dt.png);
-    background-color: #faf3e7;
+    background-color: var(--bg-girl-modal-img);
     border-radius: 80px;
     margin-left: 32px;
-
   }
 
   .title {
@@ -255,7 +239,6 @@
     flex-direction: column;
     gap: 40;
     justify-content: center;
-    margin-left: 40px;
   }
 
   .text {
