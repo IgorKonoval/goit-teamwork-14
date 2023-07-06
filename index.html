@@ -14,8 +14,8 @@
       5f8b068bd312dc5b418d0ecba9aac86029ab1bb9
     />
     
-    <script type="module" crossorigin src="/goit-teamwork-14/assets/index-fa0caa01.js"></script>
-    <link rel="stylesheet" href="/goit-teamwork-14/assets/index-0b7ec139.css">
+    <script type="module" crossorigin src="/goit-teamwork-14/assets/index-c807207f.js"></script>
+    <link rel="stylesheet" href="/goit-teamwork-14/assets/index-d5ae8e98.css">
   </head>
   <body>
     <!-- Header -->
@@ -44,18 +44,17 @@
     </a>
 
     <button type="button" class="mod-open-btn" data-modal-open>
-      <svg class="shop-bag" width="24" height="24" class="mob-open-btn-icon-1">
+      <svg class="shop-bag" width="24" height="24">
         <use href="/goit-teamwork-14/assets/icons-c7013927.svg#icon-shopping-cart-converted"></use>
       </svg>
     </button>
-    <button type="button" class="mob-menu-btn" data-menu-open>
+    <button class="mob-menu-btn" type="button" data-menu-open>
       <svg class="burger" width="24" height="24">
         <use href="/goit-teamwork-14/assets/icons-c7013927.svg#icon-gg_menu-left"></use>
       </svg>
     </button>
   </div>
 </header>
-
 
 
     <main>
@@ -594,7 +593,7 @@
   </div>
 </section>
 <!--  ==================== BUTTON ====================  -->
-<button class="order-bnt" type="button">
+<button class="order-bnt" type="button" data-order-open>
   <svg class="order-icon" width="14" height="14">
     <use href="/goit-teamwork-14/assets/icons-c7013927.svg#icon-vector-btn"></use>
   </svg>
@@ -778,14 +777,14 @@
 
 
     <!-- Модальне вікно Your order"	 -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal data-order>
   <div class="modal modal-container">
     <div class="modal-tytle-div">
       <h2 class="tytle-modal">Your Order</h2>
       <button type="button" class="modal-close-btn" data-modal-close>
-       <svg class="modal-close-icon" width="24" height="24">
-         <use href="/goit-teamwork-14/assets/icons-c7013927.svg#icon-x"></use>
-       </svg>
+        <svg class="modal-close-icon" width="24" height="24">
+          <use href="/goit-teamwork-14/assets/icons-c7013927.svg#icon-x"></use>
+        </svg>
       </button>
     </div>
     <ul class="modal-list">
@@ -799,16 +798,15 @@
               name="cabbage-basket"
               class="modal-check visually-hidden"
             />
-            <label for="cabbage-basket" class="modal-label">Cabbage Basket</label>
+            <label for="cabbage-basket" class="modal-label"
+              >Cabbage Basket</label
+            >
           </form>
           <p class="modal-text">Plant</p>
           <img
             class="modal-image"
-            srcset="
-              ../img/modal/cabbage-basket-mb.png    1x,
-              ../img/modal/cabbage-basket-mb@2x.png 2x
-            "
-            src="../img/modal/cabbage-basket-mb.png"
+            srcset="/goit-teamwork-14/assets/cabbage-basket-mb-b3d3b4bf.png 1x, /goit-teamwork-14/assets/cabbage-basket-mb@2x-162a5d16.png 2x"
+            src="/goit-teamwork-14/assets/cabbage-basket-mb-b3d3b4bf.png"
             alt="cabbage-basket"
             width="94"
             height="78"
@@ -830,11 +828,8 @@
           <p class="modal-text">Plant</p>
           <img
             class="modal-image"
-            srcset="
-              ../img/modal/tomato-basket-mb.png    1x,
-              ../img/modal/tomato-basket-mb@2x.png 2x
-            "
-            src="../img/modal/tomato-basket-mb.png"
+            srcset="data:image/png;base64,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 1x, /goit-teamwork-14/assets/tomato-basket-mb@2x-62c9d44a.png 2x"
+            src="data:image/png;base64,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"
             alt="tomato-basket"
             width="94"
             height="78"
@@ -858,11 +853,8 @@
           <p class="modal-text">Plant</p>
           <img
             class="modal-image"
-            srcset="
-              ../img/modal/vegetables-basket-mb.png    1x,
-              ../img/modal/vegetables-basket-mb@2x.png 2x
-            "
-            src="../img/modal/vegetables-basket-mb.png"
+            srcset="/goit-teamwork-14/assets/vegetables-basket-mb-35b4a5b0.png 1x, /goit-teamwork-14/assets/vegetables-basket-mb@2x-d4ff2e3c.png 2x"
+            src="/goit-teamwork-14/assets/vegetables-basket-mb-35b4a5b0.png"
             alt="vegetables-basket"
             width="94"
             height="78"
@@ -908,13 +900,16 @@
     </form>
     <button type="submit" class="submit-btn">Submit</button>
     <div class="images-modal-wrap">
-      <img class="modal-girl-dt" alt="woman"
+      <img
+        class="modal-girl-dt"
+        alt="woman"
         srcset="/goit-teamwork-14/assets/modal-girl-dt-2be23c49.jpg 1x, /goit-teamwork-14/assets/modal-girl-dt@2x-01db0bbc.jpg 2x"
-        src="../img/modal/modal-girl-dt.jpg">
-    <img class="modal-girl"
-     src="/goit-teamwork-14/assets/modal-girl-tb-1f3ecba5.jpg" alt="woman">
+        src="/goit-teamwork-14/assets/modal-girl-dt-2be23c49.jpg"
+      />
+      <img class="modal-girl" src="/goit-teamwork-14/assets/modal-girl-tb-1f3ecba5.jpg" alt="woman" />
+    </div>
   </div>
-  </div>
+</div>
 
 
     <!-- Мобільне вікно"	 -->
