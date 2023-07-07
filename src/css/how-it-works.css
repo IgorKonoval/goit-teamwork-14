@@ -15,6 +15,7 @@
 @media screen and (max-width: 767px) {
   .order-section {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .order-text {
@@ -41,6 +42,7 @@
 @media screen and (min-width: 768px) {
   .order-section {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .order-title-picture {
@@ -72,7 +74,7 @@
   .picture {
     position: absolute;
     top: 0;
-    right: 32px;
+    right: 0;
   }
 
   .order-text-one {
@@ -120,5 +122,256 @@
 
   .order-text-two {
     width: 294px;
+  }
+}
+
+/* block */
+.section-buying {
+  max-width: 335px;
+  padding-top: 40px;
+  background-image: url(../img/how-it-works/how-it-works-background-mb.png);
+  background-color: var(--bg-girl-modal-img);
+  border-radius: 40px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.container-hiw {
+  max-width: 100%;
+  width: 335px;
+  padding: 0 20px;
+}
+
+.title-hiw {
+  color: var(--text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.text-hiw {
+  list-style: none;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  color: var(--text);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  flex-direction: column;
+}
+
+.step-block {
+  min-width: 268px;
+}
+
+.step-block li {
+  position: relative;
+  padding: 0px 10px 0px 60px;
+}
+
+.step-block .first-one::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: url(../img/how-it-works/one.png) no-repeat center / contain;
+  flex-wrap: nowrap;
+}
+
+.step-block .second-two::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: url(../img/how-it-works/two.png) no-repeat center / contain;
+  flex-wrap: nowrap;
+}
+
+.step-block .third-three::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: url(../img/how-it-works/three.png) no-repeat center / contain;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  .section-buying {
+    flex-shrink: 0;
+    background-color: var(--bg-girl-modal-img);
+    border-radius: 40px;
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  .title-hiw {
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.96px;
+  }
+
+  .list-hiw {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 21px;
+  }
+
+  .text-hiw {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+  }
+
+  .img-hiw {
+    width: 258px;
+    height: 319px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-hiw {
+    max-width: 100%;
+    width: 768px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .section-buying {
+    max-width: 704px;
+    background-image: url(../img/how-it-works/how-it-works-background-tb.png);
+    background-color: var(--bg-girl-modal-img);
+    border-radius: 80px;
+    padding: 0 32px;
+    padding-top: 40px;
+    background-size: cover;
+  }
+
+  .title-girl-picture {
+    display: flex;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .step-block {
+    margin-top: 40px;
+  }
+
+  .list-hiw {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .title-hiw {
+    width: 274px;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    justify-content: center;
+  }
+
+  .text-hiw {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.56px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .first {
+    width: 275px;
+  }
+
+  .second {
+    width: 275px;
+  }
+
+  .third {
+    width: 275px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-hiw {
+    max-width: 100%;
+    width: 1280px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .section-buying {
+    max-width: 1216px;
+    background-image: url(../img/how-it-works/how-it-works-background-dt.png);
+    background-color: var(--bg-girl-modal-img);
+    border-radius: 80px;
+    padding: 0 32px;
+    padding-top: 40px;
+  }
+
+  .title-hiw {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    width: 512px;
+    justify-content: center;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .text-hiw {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.56px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .list-hiw {
+    flex-direction: column;
+
+    gap: 24px;
+  }
+
+  .picture-hiw {
+    width: 434px;
+    height: 420px;
+    display: flex;
+    margin-right: 110px;
+    justify-content: center;
+  }
+
+  .first {
+    width: 349px;
+  }
+
+  .second {
+    width: 210px;
+  }
+
+  .third {
+    width: 349px;
   }
 }

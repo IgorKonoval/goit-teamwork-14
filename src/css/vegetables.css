@@ -3,6 +3,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  padding-top: 80px;
 }
 
 .veg-title {
@@ -80,6 +81,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .vegetables {
+    padding-top: 100px;
+  }
   .veg-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,7 +129,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+  .vegetables {
+    padding-top: 124px;
+  }
   .veg-list {
     gap: 24px;
     row-gap: 24px;

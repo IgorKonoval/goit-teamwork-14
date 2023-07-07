@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: column;
   min-width: 320px;
-  max-height: 88vh;
+  max-height: 90vh;
   background-color: var(--bg-and-text);
   border-radius: 20px;
   padding: 20px;
   overflow: auto;
-  position:absolute;
+  position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -53,12 +53,12 @@
 }
 
 .tytle-modal {
-color: var(--text);
-font-size: 28px;
-font-weight: 500;
-line-height: 1;
-letter-spacing: -1.12px;
-text-transform: uppercase;
+  color: var(--text);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
 }
 
 .modal-list {
@@ -76,10 +76,10 @@ text-transform: uppercase;
 
 
 .modal-check {
- position: absolute;
-margin: 14px 14px;
-right: 0;
-top: 0;
+  position: absolute;
+  margin: 14px 14px;
+  right: 0;
+  top: 0;
 }
 
 .modal-label {
@@ -95,10 +95,10 @@ padding: 20px 0 0 20px;
 
 .modal-text {
   color: var(--text);
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.28px;
-padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  padding-left: 20px;
 }
 
 .modal-label::after {
@@ -107,7 +107,7 @@ padding-left: 20px;
   width: 16px;
   height: 16px;
   background-color: transparent;
-  background-image: url(../img/modal/modal-checkbox-off.png);
+  background-image: url(./img/modal/modal-checkbox-off.png);
   background-size: 16px 16px;
   position: absolute;
   top: 13px;
@@ -115,7 +115,7 @@ padding-left: 20px;
 }
 
 .modal-check:checked + .modal-label::after {
-  background-image: url(../img/modal/modal-checkbox-on.png);
+  background-image: url(./img/modal/modal-checkbox-on.png);
 }
 
 .visually-hidden {
@@ -147,11 +147,11 @@ padding-left: 20px;
   height: 46px;
   border-radius: 100px;
   border: 1px solid rgba(20, 20, 20, 0.3);
-  color: rgba(20, 20, 20, 0.50);
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.56px;
-padding-left: 24px;
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  padding-left: 24px;
 }
 
 .modal-comment {
@@ -160,13 +160,13 @@ padding-left: 24px;
   border-radius: 20px;
   border: 1px solid rgba(20, 20, 20, 0.3);
   resize: none;
-  color: rgba(20, 20, 20, 0.50);
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.56px;
-padding-left: 24px;
-padding-top: 14px;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(20, 20, 20, 0.5);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  padding-left: 24px;
+  padding-top: 14px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-btn {
@@ -176,15 +176,15 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 42px;
   border-radius: 100px;
   border: none;
-background-color: var(--btn);
-color:var(--bg-and-text);
-font-size: 14px;
-font-family: inherit;
-line-height: 1.28;
-letter-spacing: -0.56px;
-text-transform: capitalize;
-transition-property: transform;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  background-color: var(--btn);
+  color: var(--bg-and-text);
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+  transition-property: transform;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-btn:hover {
@@ -198,8 +198,7 @@ transition-property: transform;
   display: none;
 }
 
-
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .modal {
     min-width: 704px;
     min-height: 503px;
@@ -209,7 +208,8 @@ transition-property: transform;
     flex-direction: row;
     justify-content: center;
   }
-  .form-thumb { 
+
+  .form-thumb {
     width: 200px;
     height: 250px;
   }
@@ -220,23 +220,24 @@ transition-property: transform;
     width: 172px;
     height: 142px;
     bottom: 14px;
-  right: 14px;
+    right: 14px;
   }
   .modal-form-input {
     max-width: 360px;
   }
   .modal-comment {
     max-width: 360px;
-  } 
+
+  }
   .modal-girl {
     display: block;
     position: absolute;
-   top: 412px;
+    top: 412px;
     right: 0;
   }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .modal {
     min-width: 891px;
   }
@@ -249,9 +250,11 @@ transition-property: transform;
   }
   .modal-label {
     font-size: 24px;
-line-height: 1.16;
-letter-spacing: -0.96px;
-margin-bottom: 8px;
+
+    line-height: 1.16;
+    letter-spacing: -0.96px;
+    margin-bottom: 8px;
+
   }
   .modal-image {
     width: 243px;
@@ -267,3 +270,4 @@ margin-bottom: 8px;
     top: 500px;
   }
 }
+
