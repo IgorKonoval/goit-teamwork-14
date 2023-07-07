@@ -101,22 +101,21 @@ padding: 20px 0 0 20px;
   padding-left: 20px;
 }
 
-.modal-label::after {
-  content: '';
-  display: block;
+.modal-label span {
   width: 16px;
   height: 16px;
   background-color: transparent;
-  background-image: url(./img/modal/modal-checkbox-off.png);
   background-size: 16px 16px;
+  background-image: url(../img/modal/modal-checkbox-off.png);
+  display: block;
   position: absolute;
   top: 13px;
   right: 13px;
 }
 
-.modal-check:checked + .modal-label::after {
-  background-image: url(./img/modal/modal-checkbox-on.png);
-}
+.modal-check:checked + .modal-label span {
+  background-image: url(../img/modal/modal-checkbox-on.png);
+} 
 
 .visually-hidden {
   position: absolute;
