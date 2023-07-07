@@ -119,6 +119,7 @@
         class="modal-form-input"
         placeholder="Enter card..."
         required
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
       />
       <textarea
         id="user-comment"
@@ -129,16 +130,12 @@
     </form>
     <button type="submit" class="submit-btn">Submit</button>
     <div class="images-modal-wrap">
-      <img
-        class="modal-girl-dt"
-        alt="woman"
-        srcset="
-          ./img/modal/modal-girl-dt.jpg    1x,
-          ./img/modal/modal-girl-dt@2x.jpg 2x
+      <img class="modal-girl-dt" alt="woman"
+        srcset="./img/modal/modal-girl-dt.jpg   1x,
+        ./img/modal/modal-girl-dt@2x.jpg 2x
         "
-        src="./img/modal/modal-girl-dt.jpg"
-      />
-      <img class="modal-girl" src="./img/modal/modal-girl-tb.jpg" alt="woman" />
-    </div>
+        src="./img/modal/modal-girl-dt.jpg">
+    <img class="modal-girl"
+     src="./img/modal/modal-girl-tb.jpg" alt="woman">
   </div>
-</div>
+  </div>

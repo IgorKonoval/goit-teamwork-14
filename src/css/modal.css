@@ -74,6 +74,7 @@
   height: 119px;
 }
 
+
 .modal-check {
   position: absolute;
   margin: 14px 14px;
@@ -85,11 +86,11 @@
   display: flex;
   align-items: center;
   color: var(--text);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.33;
-  letter-spacing: -0.72px;
-  padding: 20px 0 0 20px;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.33;
+letter-spacing: -0.72px;
+padding: 20px 0 0 20px;
 }
 
 .modal-text {
@@ -207,6 +208,7 @@
     flex-direction: row;
     justify-content: center;
   }
+
   .form-thumb {
     width: 200px;
     height: 250px;
@@ -225,6 +227,7 @@
   }
   .modal-comment {
     max-width: 360px;
+
   }
   .modal-girl {
     display: block;
@@ -247,9 +250,11 @@
   }
   .modal-label {
     font-size: 24px;
+
     line-height: 1.16;
     letter-spacing: -0.96px;
     margin-bottom: 8px;
+
   }
   .modal-image {
     width: 243px;
@@ -265,3 +270,4 @@
     top: 500px;
   }
 }
+
