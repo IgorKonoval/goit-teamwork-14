@@ -1,4 +1,4 @@
-<div class="backdrop is-hidden" data-modal data-order>
+<div class="backdrop is-hidden" data-modal data-order data-mobil-order>
   <div class="modal modal-container">
     <div class="modal-tytle-div">
       <h2 class="tytle-modal">Your Order</h2>
@@ -20,8 +20,8 @@
               class="modal-check visually-hidden"
             />
             <label for="cabbage-basket" class="modal-label"
-              >Cabbage Basket<span></span></label
-            >
+              >Cabbage Basket<span></span
+            ></label>
           </form>
           <p class="modal-text">Plant</p>
           <img
@@ -47,7 +47,9 @@
               name="tomato-basket"
               class="modal-check visually-hidden"
             />
-            <label for="tomato-basket" class="modal-label">Tomato Basket<span></span></label>
+            <label for="tomato-basket" class="modal-label"
+              >Tomato Basket<span></span
+            ></label>
           </form>
           <p class="modal-text">Plant</p>
           <img
@@ -74,8 +76,8 @@
               class="modal-check visually-hidden"
             />
             <label for="vegetables-basket" class="modal-label"
-              >Vegetables Basket<span></span></label
-            >
+              >Vegetables Basket<span></span
+            ></label>
           </form>
           <p class="modal-text">Plant</p>
           <img
@@ -100,7 +102,7 @@
         class="modal-form-input"
         placeholder="Enter full name..."
         required
-        pattern="[a-zA-Zа-ЯА-ЯїЇіІ]+"
+        pattern="[a-zA-Za-ЯА-ЯїЇіІ]+"
         minlength="2"
         autofocus
       />
@@ -129,12 +131,16 @@
     </form>
     <button type="submit" class="submit-btn">Submit</button>
     <div class="images-modal-wrap">
-      <img class="modal-girl-dt" alt="woman"
-        srcset="./img/modal/modal-girl-dt.jpg   1x,
-        ./img/modal/modal-girl-dt@2x.jpg 2x
+      <img
+        class="modal-girl-dt"
+        alt="woman"
+        srcset="
+          ./img/modal/modal-girl-dt.jpg    1x,
+          ./img/modal/modal-girl-dt@2x.jpg 2x
         "
-        src="./img/modal/modal-girl-dt.jpg">
-    <img class="modal-girl"
-     src="./img/modal/modal-girl-tb.jpg" alt="woman">
+        src="./img/modal/modal-girl-dt.jpg"
+      />
+      <img class="modal-girl" src="./img/modal/modal-girl-tb.jpg" alt="woman" />
+    </div>
   </div>
-  </div>
+</div>
