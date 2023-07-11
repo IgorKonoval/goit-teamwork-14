@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   min-width: 320px;
-  max-height: 90vh;
+  max-height: 88vh;
   background-color: var(--bg-and-text);
   border-radius: 20px;
   padding: 20px;
